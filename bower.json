@@ -1,0 +1,19 @@
+{
+  "name": "bohanhsu.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/BohanHsu/BohanHsu.github.io",
+  "authors": [
+    "BohanHsu <ilovebarce@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
