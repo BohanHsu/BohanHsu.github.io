@@ -9,6 +9,8 @@ html(lang='en' ng-app='Application')
     meta(name='author', content='Bohan Xu')
 
     link(rel='stylesheet', href='../vendor/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='../vendor/startbootstrap-blog-home-1.0.4/css/blog-home.css')
+    
     title Applications
 
     // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
@@ -18,8 +20,14 @@ html(lang='en' ng-app='Application')
       script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
 
   body
-    h1
-      | Hello world
+    nav.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+      .navbar-header
 
-    script(src='../vendor/bootstrap/dist/js/bootstrap.min.js')
+    .container
+      .row
+        h1 School Lists
+
     script(src='../vendor/jquery/dist/jquery.min.js')
+    script(src='../vendor/bootstrap/dist/js/bootstrap.min.js')
+    //-script(src='../vendor/angular/angular.min.js')
+    //-script(src='../vendor/angular-route/angular-route.min.js')
