@@ -37,5 +37,10 @@
     .controller('school.controller', function($scope, $routeParams) {
       console.log('school.controller')
       console.log($routeParams)
+      
+      $scope.params = {}
+      $scope.params['school_info'] = school_info($routeParams['id'])
+       
+      console.log($scope.params)
     })
 })()

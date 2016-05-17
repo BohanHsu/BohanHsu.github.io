@@ -19,3 +19,9 @@ function school_preview(page, num_per_page) {
 function schools_nums() {
   return schools.length
 }
+
+
+
+function school_info(school_index) {
+  return schools[school_index]
+}
