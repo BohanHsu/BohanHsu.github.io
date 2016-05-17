@@ -1,0 +1,22 @@
+school_json = [
+  {name: 'test1 sadkj; sad;fja dsafj;a f', address: 'adfkl;adjf;'},
+  {name: 'test2salj', address: 'Boston, MA'},
+  {name: 'test3salj', address: 'Boston, MA'},
+  {name: 'test4salj', address: 'Boston, MA'},
+  {name: 'test5salj', address: 'Boston, MA'},
+  {name: 'test6salj', address: 'Boston, MA'},
+  {name: 'test7salj', address: 'Boston, MA'},
+  {name: 'test8salj', address: 'Boston, MA'},
+  {name: 'test9salj', address: 'Boston, MA'},
+  {name: 'test10sal', address: 'Boston, MA'},
+  {name: 'test11sal', address: 'Boston, MA'},
+  {name: 'test12sal', address: 'Boston, MA'},
+  {name: 'test13sal', address: 'Boston, MA'},
+  {name: 'test14sal', address: 'Boston, MA'},
+  {name: 'test15sal', address: 'Boston, MA'},
+  {name: 'test16sal', address: 'Boston, MA'},
+  {name: 'test17sal', address: 'Boston, MA'},
+  {name: 'test18sal', address: 'Boston, MA'},
+  {name: 'test19sal', address: 'Boston, MA'},
+  {name: 'test20sal', address: 'Boston, MA'}
+]

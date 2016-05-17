@@ -34,20 +34,16 @@ html(lang='en' ng-app='applicationsApp')
             li
               a(href='#') About
 
-    div#test
-      p
-        a(href='#/home')
-          | home
-      p
-        a(href='#/detail/0')
-          | detail
-
     div(ng-view='')
 
     script(src='../vendor/jquery/dist/jquery.min.js')
     script(src='../vendor/bootstrap/dist/js/bootstrap.min.js')
     script(src='../vendor/angular/angular.min.js')
     script(src='../vendor/angular-route/angular-route.min.js')
+
+    script(src='./schools.js')
+    script(src='./js/school_util.js')
+
     script(src='./js/app.js')
     script(src='./js/controllers.js')
     script(src='./js/config.js')

@@ -1,2 +1,19 @@
-h2
-  | home
+.container
+  .row
+    col-md-8
+    h1.page-header
+      | School List
+
+    ul
+      li(ng-repeat="school in params['school_list']")
+        h3
+          a(href='#/detail/{{school["id"]}}') {{school['name']}}
+        h4
+          | {{school['address']}}
+        hr
+  .row
+    ur.pager
+      li.previous
+        a() Older
+      li.next
+        a() Next

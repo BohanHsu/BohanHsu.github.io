@@ -1,2 +1,20 @@
 
-<h2>home</h2>
+<div class="container">
+  <div class="row">
+    <col-md-8></col-md-8>
+    <h1 class="page-header">School List</h1>
+    <ul>
+      <li ng-repeat="school in params['school_list']">
+        <h3><a href="#/detail/{{school[&quot;id&quot;]}}">{{school['name']}}</a></h3>
+        <h4>{{school['address']}}</h4>
+        <hr/>
+      </li>
+    </ul>
+  </div>
+  <div class="row">
+    <ur class="pager">
+      <li class="previous"><a>Older</a></li>
+      <li class="next"><a>Next</a></li>
+    </ur>
+  </div>
+</div>
