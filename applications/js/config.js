@@ -8,9 +8,9 @@
           templateUrl: './home.view.html',
           controller: 'home.controller'
         })
-        .when('/detail/:id', {
-          templateUrl: './detail.view.html',
-          controller: 'detail.controller'
+        .when('/school/:id', {
+          templateUrl: './school.view.html',
+          controller: 'school.controller'
         })
         .otherwise('/home')
     })

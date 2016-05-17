@@ -5,7 +5,7 @@
     <h1 class="page-header">School List</h1>
     <ul>
       <li ng-repeat="school in params['school_list']">
-        <h3><a href="#/detail/{{school[&quot;id&quot;]}}">{{school['name']}}</a></h3>
+        <h3><a href="#/school/{{school[&quot;id&quot;]}}">{{school['name']}}</a></h3>
         <h4>{{school['address']}}</h4>
         <hr/>
       </li>

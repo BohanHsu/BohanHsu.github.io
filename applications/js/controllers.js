@@ -7,7 +7,7 @@
 
       $scope.params = {
         page: 0,
-        num_per_page: 10
+        num_per_page: 100
       }
 
       var load_school_preview = function() {
@@ -27,8 +27,8 @@
 
     })
 
-    .controller('detail.controller', function($scope, $routeParams) {
-      console.log('detail.controller')
+    .controller('school.controller', function($scope, $routeParams) {
+      console.log('school.controller')
       console.log($routeParams)
     })
 })()

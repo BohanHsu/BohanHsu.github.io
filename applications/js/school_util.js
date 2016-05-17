@@ -8,8 +8,8 @@ function school_preview(page, num_per_page) {
     if (idx >= page * num_per_page && idx < (page + 1) * num_per_page) {
       var preview = {}
       preview['id'] = idx
-      preview['name'] = ele['name']
-      preview['address'] = ele['address']
+      preview['name'] = ele['School_Name']
+      preview['address'] = ele['Location']
       previews.push(preview)
     }
   })
