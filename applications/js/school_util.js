@@ -42,3 +42,7 @@ function get_school_attr_display() {
     'Location': 'Address',
     'Admission_Rate': 'Overall Admission Rate'}
 }
+
+function is_hyper_link(attr) {
+  return attr == 'School_Page_Link'
+}

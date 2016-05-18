@@ -63,6 +63,7 @@
       $scope.params['school_detail'] = school_detail
       $scope.params['school_attrs'] = get_school_attrs()
       $scope.params['school_attr_display'] = get_school_attr_display()
+      $scope.is_hyper_link = is_hyper_link
     })
 
     //.controller('program.controller', function($scope, $routeParams) {

@@ -7,7 +7,8 @@
     <table class="table-striped table">
       <tr ng-repeat="attr in params[&quot;school_attrs&quot;]">
         <td>{{params['school_attr_display'][attr]}}:</td>
-        <td>{{params['school_detail'][attr]}}</td>
+        <td ng-if="is_hyper_link(attr)"> <a href="{{params['school_detail'][attr]}}">{{params['school_detail'][attr]}}</a></td>
+        <td ng-if="!is_hyper_link(attr)">{{params['school_detail'][attr]}}</td>
       </tr>
     </table>
   </div>

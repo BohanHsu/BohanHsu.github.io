@@ -7,7 +7,9 @@
     table.table-striped.table
       tr(ng-repeat='attr in params["school_attrs"]')
         td {{params['school_attr_display'][attr]}}:
-        td {{params['school_detail'][attr]}}
+        td(ng-if="is_hyper_link(attr)") 
+          a(href="{{params['school_detail'][attr]}}") {{params['school_detail'][attr]}}
+        td(ng-if="!is_hyper_link(attr)") {{params['school_detail'][attr]}}
 
   .row
     ul
