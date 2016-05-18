@@ -1,2 +1,16 @@
-h2
-  | {{params['school_info']['School_Name']}}
+.container
+  .row
+    h2
+      | {{params['school_info']['School_Name']}}
+
+  .row
+    table.table-striped.table
+      tr(ng-repeat='attr in params["school_attrs"]')
+        td {{params['school_attr_display'][attr]}}:
+        td {{params['school_detail'][attr]}}
+
+  .row
+    ul
+      li(ng-repeat='program in program_preview')
+        h3
+          a(href='#/program/{{params["school_id"]}}/{{program["id"]}}') {{program['name']}}

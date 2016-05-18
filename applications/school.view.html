@@ -1,3 +1,21 @@
 
-<h2>hahaha</h2>
-<h2>{{params['school_info']['School_Name']}}</h2>
+<div class="container">
+  <div class="row">
+    <h2>{{params['school_info']['School_Name']}}</h2>
+  </div>
+  <div class="row">
+    <table class="table-striped table">
+      <tr ng-repeat="attr in params[&quot;school_attrs&quot;]">
+        <td>{{params['school_attr_display'][attr]}}:</td>
+        <td>{{params['school_detail'][attr]}}</td>
+      </tr>
+    </table>
+  </div>
+  <div class="row">
+    <ul>
+      <li ng-repeat="program in program_preview">
+        <h3><a href="#/program/{{params[&quot;school_id&quot;]}}/{{program[&quot;id&quot;]}}">{{program['name']}}</a></h3>
+      </li>
+    </ul>
+  </div>
+</div>

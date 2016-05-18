@@ -12,6 +12,10 @@
           templateUrl: './school.view.html',
           controller: 'school.controller'
         })
+        .when('/program/:school_id/:program_id', {
+          templateUrl: './program.view.html',
+          controller: 'program.controller'
+        })
         .otherwise('/home')
     })
 })()
