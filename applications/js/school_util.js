@@ -44,5 +44,45 @@ function get_school_attr_display() {
 }
 
 function is_hyper_link(attr) {
-  return attr == 'School_Page_Link'
+  return attr == 'School_Page_Link' || attr == 'Major_Page_Link' || attr == 'Requirement_Page_Link'
+}
+
+function is_multi_value_attr(attr) {
+  return attr == 'Special_Requirement' || attr == 'Comment'
+}
+
+function program_info(school_idx, program_idx) {
+  return schools[school_idx]['programs'][program_idx]
+}
+
+function get_program_attrs() {
+  var program_attrs = []
+
+  for (var i = 6; i < titles.length; i++) {
+    program_attrs.push(titles[i])
+  }
+
+  return program_attrs
+}
+
+function get_program_attr_display() {
+  return {
+    'Major': 'Major',
+    'Collage': 'Collage',
+    'Collage_Ranking': 'Collage Ranking (专业排名)',
+    'Major_Page_Link': 'Major Description',
+    'Program_Length': 'Length of Study',
+    'Spring/Fall_Program': 'Admission in Spring / Fall',
+    'Deadline': 'Application Deadline',
+    'GPA': 'GPA Requirement',
+    'GRE/GMAT': 'GRE / GMAT requirement',
+    'Toefl': 'TOEFL Requirement',
+    'Recommandation_Letter': 'Recommandation Letter',
+    'Personal_Statement': 'Personal Statement',
+    'Resume': 'Resume / CV',
+    'Special_Requirement': 'Special Requirements',
+    'Fee': 'Application Fee',
+    'Requirement_Page_Link': 'Requirement Description Page Link',
+    'Comment': 'Comment'
+  }
 }

@@ -1,0 +1,16 @@
+
+<div class="container">
+  <div class="row">
+    <h2>{{params['school_info']['School_Name']}}</h2>
+  </div>
+  <div class="row">
+    <table class="table-striped table">
+      <tr ng-repeat="row_val in params[&quot;cooked_program_info&quot;]">
+        <td ng-if="row_val.length == 4" rowspan="{{row_val[3]}}">{{row_val[2]}}</td>
+        <td ng-if="row_val.length == 3">{{row_val[2]}}</td>
+        <td ng-if="row_val[1]"> <a href="{{row_val[0]}}">{{row_val[0]}}</a></td>
+        <td ng-if="!row_val[1]">{{row_val[0]}}</td>
+      </tr>
+    </table>
+  </div>
+</div>

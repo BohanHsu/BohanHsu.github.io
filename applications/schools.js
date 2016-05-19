@@ -24,8 +24,8 @@
  *      "Toefl": "",
  *      "Recommandation_Letter": "",
  *      "Personal_Statement": "",
- *      "resume": "",
- *      "Special_requirement": [
+ *      "Resume": "",
+ *      "Special_Requirement": [
  *        ""
  *      ],
  *      "Fee": "",
@@ -40,9 +40,47 @@
  *
  */
 
+
 titles = ['Number','School_Name','School_Rank','School_Page_Link','Location','Admission_Rate','Major','Collage','Collage_Ranking','Major_Page_Link','Program_Length','Spring/Fall_Program','Deadline','GPA','GRE/GMAT','Toefl','Recommandation_Letter','Personal_Statement','Resume','Special_Requirement','Fee','Requirement_Page_Link', 'Comment']
 
 school_json = [
+
+  {
+    "School_Name": "1",
+    "School_Rank": "2",
+    "School_Page_Link": "3",
+    "Location": "4",
+    "Admission_Rate": "5",
+    "programs": [
+      {
+        "Major": "6",
+        "Collage": "7",
+        "Collage_Ranking": "8",
+        "Major_Page_Link": "9",
+        "Program_Length": "10",
+        "Spring/Fall_Program": "11",
+        "Deadline": "12",
+        "GPA": "13",
+        "GRE/GMAT": "14",
+        "Toefl": "15",
+        "Recommandation_Letter": "16",
+        "Personal_Statement": "17",
+        "Resume": "18",
+        "Special_Requirement": [
+          "19",
+          "20",
+          "21",
+        ],
+        "Fee": "22",
+        "Requirement_Page_Link": "23",
+        "Comment": [
+          "24",
+          "25",
+        ]
+      },
+    ]
+  },
+
   {
     "School_Name": "University of California, San Diego",
     "School_Rank": "39",
