@@ -40,7 +40,6 @@
  *
  */
 
-
 titles = ['Number','School_Name','School_Rank','School_Page_Link','Location','Admission_Rate','Major','Collage','Collage_Ranking','Major_Page_Link','Program_Length','Spring/Fall_Program','Deadline','GPA','GRE/GMAT','Toefl','Recommandation_Letter','Personal_Statement','Resume','Special_Requirement','Fee','Requirement_Page_Link', 'Comment']
 
 school_json = [
@@ -829,4 +828,43 @@ school_json = [
       }
     ]
   }
-]
+].reverse()
+
+school_json = [
+  // umass Boston
+  {
+    "School_Name": "University of Massachusetts--Boston",
+    "School_Rank": "RNP",
+    "School_Page_Link": "https://www.umb.edu/",
+    "Location": "Boston, MA",
+    "Admission_Rate": "70.8%",
+    "programs": [
+      {
+        "Major": "Information Technology, MS",
+        "Collage": "Collage of Management",
+        "Collage_Ranking": "",
+        "Major_Page_Link": "https://www.umb.edu/academics/cm/masters_programs/degrees/msit",
+        "Program_Length": "2 years",
+        "Spring/Fall_Program": "Spring / Fall",
+        "Deadline": "Spring: Nov 1 / Fall: June 1",
+        "GPA": "",
+        "GRE/GMAT": "not mentioned",
+        "Toefl": "",
+        "Recommandation_Letter": "3",
+        "Personal_Statement": "yes (Statement of Purpose), requriement at requirement page",
+        "Resume": "yes",
+        "Special_Requirement": [
+          "Format of statement of purpose, details in requirement link",
+        ],
+        "Fee": "$100",
+        "Requirement_Page_Link": "https://www.umb.edu/admissions/grad/apply/application_requirements#",
+        "Comment": [
+          "Need to confirm about gre/gmat",
+          "保底"
+        ]
+      },
+    ]
+  }
+].concat(school_json)
+
+
