@@ -867,4 +867,38 @@ school_json = [
   }
 ].concat(school_json)
 
-
+school_json = [
+  // clark university
+  {
+    "School_Name": "Clark University",
+    "School_Rank": "75",
+    "School_Page_Link": "http://www.clarku.edu/",
+    "Location": "Worcester, MA",
+    "Admission_Rate": "54%",
+    "programs": [
+      {
+        "Major": "Master’s in Information Technology",
+        "Collage": "College Of Professional And Continuing Education (学院名字比较奇怪，但是是一个研究生项目)",
+        "Collage_Ranking": "",
+        "Major_Page_Link": "http://www.clarku.edu/programs/masters-information-technology",
+        "Program_Length": "International students often earn their degrees full-time in less than two years.",
+        "Spring/Fall_Program": "January, May, July or September (Students may enroll in programs at the start of any semester.)",
+        "Deadline": "Rolling, international student need to apply at least two months before start of semester",
+        "GPA": "",
+        "GRE/GMAT": "GRE",
+        "Toefl": "89, (if not reached, english courses will be required)",
+        "Recommandation_Letter": "3, (two letters from academic professionals who have taught or supervised the applicant and can attest to the applicant's academic capability and a third letter from a supervisor or colleague.) ",
+        "Personal_Statement": "yes, (lease provide a statement in which you discuss your career goals and plans for achieving them. Please also discuss any relevant educational, professional or other experiences that will contribute to your success in the program and in your career.)",
+        "Resume": "Yes",
+        "Special_Requirement": [
+          "Interview"
+        ],
+        "Fee": "$75",
+        "Requirement_Page_Link": "http://www.clarku.edu/ms-information-technology-requirements",
+        "Comment": [
+          ""
+        ]
+      },
+    ]
+  }
+].concat(school_json)
