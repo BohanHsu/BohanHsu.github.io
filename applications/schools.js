@@ -902,3 +902,96 @@ school_json = [
     ]
   }
 ].concat(school_json)
+
+
+school_json = [
+  // wpi
+  {
+    "School_Name": "Worcester Polytechnic Institute",
+    "School_Rank": "57",
+    "School_Page_Link": "https://www.wpi.edu/",
+    "Location": "Worcester, MA",
+    "Admission_Rate": "43.8%",
+    "programs": [
+      {
+        "Major": "MS in Information Technology",
+        "Collage": "School of Business",
+        "Collage_Ranking": "",
+        "Major_Page_Link": "https://www.wpi.edu/academics/business/msinfo.html",
+        "Program_Length": "",
+        "Spring/Fall_Program": "Spring / Fall",
+        "Deadline": "Spring: Nov. 6 / Jun. 1",
+        "GPA": "",
+        "GRE/GMAT": "GRE / GMAT",
+        "Toefl": "84, writing is 20, listening is 22, reading is 20, and speaking is 22",
+        "Recommandation_Letter": "3",
+        "Personal_Statement": "Yes, special requirement has details",
+        "Resume": "Yes",
+        "Special_Requirement": [
+          "Programming skills",
+          "What brings you to this point?",
+          "Where do you want to go with your career?",
+          "How does the degree program to which you are applying help you achieve your career goals?",
+          "What will you bring to the WPI School of Business community, classroom experience, etc.?"
+        ],
+
+        "Fee": "$70",
+        "Requirement_Page_Link": "https://www.wpi.edu/academics/business/apply-degree.html#Work Experience",
+        "Comment": [
+          "STEM"
+        ]
+      },
+  
+      {
+        "Major": "MS in Management/MBA",
+        "Collage": "",
+        "Collage_Ranking": "",
+        "Major_Page_Link": "https://www.wpi.edu/academics/business/msmgmt.html",
+        "Program_Length": "",
+        "Spring/Fall_Program": "",
+        "Deadline": "",
+        "GPA": "",
+        "GRE/GMAT": "",
+        "Toefl": "",
+        "Recommandation_Letter": "",
+        "Personal_Statement": "",
+        "Resume": "",
+        "Special_Requirement": [
+          ""
+        ],
+        "Fee": "",
+        "Requirement_Page_Link": "",
+        "Comment": [
+          ""
+        ]
+      },
+
+      {
+        "Major": "Financial Mathematics",
+        "Collage": "",
+        "Collage_Ranking": "",
+        "Major_Page_Link": "https://www.wpi.edu/academics/math/profprog-financial.html",
+        "Program_Length": "",
+        "Spring/Fall_Program": "",
+        "Deadline": "",
+        "GPA": "",
+        "GRE/GMAT": "",
+        "Toefl": "",
+        "Recommandation_Letter": "",
+        "Personal_Statement": "",
+        "Resume": "",
+        "Special_Requirement": [
+          ""
+        ],
+        "Fee": "",
+        "Requirement_Page_Link": "",
+        "Comment": [
+          ""
+        ]
+      },
+
+    ]
+  }
+
+  
+].concat(school_json)
