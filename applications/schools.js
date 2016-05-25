@@ -938,31 +938,34 @@ school_json = [
         "Fee": "$70",
         "Requirement_Page_Link": "https://www.wpi.edu/academics/business/apply-degree.html#Work Experience",
         "Comment": [
-          "STEM"
+          "STEM",
+          "除了要求编程之外我觉得这个专业比较好",
+          "在考虑给学校发个邮件问一下编程这个要求是不是一定要满足。"
         ]
       },
   
       {
         "Major": "MS in Management/MBA",
-        "Collage": "",
+        "Collage": "School of Business",
         "Collage_Ranking": "",
         "Major_Page_Link": "https://www.wpi.edu/academics/business/msmgmt.html",
-        "Program_Length": "",
-        "Spring/Fall_Program": "",
-        "Deadline": "",
+        "Program_Length": "10 courses",
+        "Spring/Fall_Program": "Spring / Fall",
+        "Deadline": "Spring: Nov. 6 / Jun. 1",
         "GPA": "",
-        "GRE/GMAT": "",
-        "Toefl": "",
-        "Recommandation_Letter": "",
-        "Personal_Statement": "",
-        "Resume": "",
+        "GRE/GMAT": "GRE / GMAT",
+        "Toefl": "84, writing is 20, listening is 22, reading is 20, and speaking is 22",
+        "Recommandation_Letter": "3",
+        "Personal_Statement": "Yes, same requirement as Information Technology Program",
+        "Resume": "Yes",
         "Special_Requirement": [
-          ""
+          "Please refer to requirement link for statement of purpose requirement"
         ],
-        "Fee": "",
-        "Requirement_Page_Link": "",
+        "Fee": "$70",
+        "Requirement_Page_Link": "https://www.wpi.edu/academics/business/apply-degree.html",
         "Comment": [
-          ""
+          "这个专业是management，毕业之后工作2年以上，可以选择会学校完成mba的学位。",
+          "这个专业的要求跟information technology专业的基本一样，因为是一个学院的专业。"
         ]
       },
 
@@ -992,6 +995,4 @@ school_json = [
 
     ]
   }
-
-  
 ].concat(school_json)
