@@ -16,6 +16,7 @@
  *      "Collage": "",
  *      "Collage_Ranking": "",
  *      "Major_Page_Link": "",
+ *      "Curriculum_Page_Link": "",
  *      "Program_Length": "",
  *      "Spring/Fall_Program": "",
  *      "Deadline": "",
@@ -40,7 +41,7 @@
  *
  */
 
-titles = ['Number','School_Name','School_Rank','School_Page_Link','Location','Admission_Rate','Major','Collage','Collage_Ranking','Major_Page_Link','Program_Length','Spring/Fall_Program','Deadline','GPA','GRE/GMAT','Toefl','Recommandation_Letter','Personal_Statement','Resume','Special_Requirement','Fee','Requirement_Page_Link', 'Comment']
+titles = ['Number','School_Name','School_Rank','School_Page_Link','Location','Admission_Rate','Major','Collage','Collage_Ranking','Major_Page_Link','Curriculum_Page_Link','Program_Length','Spring/Fall_Program','Deadline','GPA','GRE/GMAT','Toefl','Recommandation_Letter','Personal_Statement','Resume','Special_Requirement','Fee','Requirement_Page_Link', 'Comment']
 
 school_json = [
 
@@ -971,9 +972,10 @@ school_json = [
 
       {
         "Major": "Financial Mathematics",
-        "Collage": "",
+        "Collage": "DEPARTMENT OFMathematical Sciences",
         "Collage_Ranking": "",
         "Major_Page_Link": "https://www.wpi.edu/academics/math/profprog-financial.html",
+        "Curriculum_Page_Link": "https://www.wpi.edu/academics/math/grad-courses.html",
         "Program_Length": "",
         "Spring/Fall_Program": "",
         "Deadline": "",
@@ -984,12 +986,14 @@ school_json = [
         "Personal_Statement": "",
         "Resume": "",
         "Special_Requirement": [
-          ""
+          "strong background in mathematics, which should include courses in real analysis, linear algebra, and differential equations, is assumed"
         ],
         "Fee": "",
         "Requirement_Page_Link": "",
         "Comment": [
-          ""
+          "annual enrollment of about 30 students",
+          "Graduate Admission 的网页暂时打不开, 其他信息也找不到。",
+          "课程列表是学校所有的课程，感觉这个学院的网站信息特别少，不知道还有什么地方可以查。"
         ]
       },
 

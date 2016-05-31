@@ -44,7 +44,7 @@ function get_school_attr_display() {
 }
 
 function is_hyper_link(attr) {
-  return attr == 'School_Page_Link' || attr == 'Major_Page_Link' || attr == 'Requirement_Page_Link'
+  return attr == 'School_Page_Link' || attr == 'Major_Page_Link' || attr == 'Requirement_Page_Link' || attr == 'Curriculum_Page_Link'
 }
 
 function is_multi_value_attr(attr) {
@@ -71,6 +71,7 @@ function get_program_attr_display() {
     'Collage': 'Collage',
     'Collage_Ranking': 'Collage Ranking (专业排名)',
     'Major_Page_Link': 'Major Description',
+    'Curriculum_Page_Link': 'Curriculum Page Link',
     'Program_Length': 'Length of Study',
     'Spring/Fall_Program': 'Admission in Spring / Fall',
     'Deadline': 'Application Deadline',
