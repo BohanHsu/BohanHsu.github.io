@@ -2,8 +2,30 @@ var schools = school_json
 
 function school_preview(page, num_per_page) {
   // page start from 0
+  
+  var len = schools.length
+
   var previews = []
 
+  var i = page * num_per_page
+
+  while (i < (page + 1) * num_per_page) {
+    var idx = schools.length - 1 - i
+
+    if (idx < 0) {
+      break
+    }
+
+    var preview = {}
+    var ele = schools[idx]
+    preview['id'] = idx
+    preview['name'] = ele['School_Name']
+    preview['address'] = ele['Location']
+    previews.push(preview)
+    i += 1
+  }
+
+  /*
   schools.forEach(function(ele, idx, arr) {
     if (idx >= page * num_per_page && idx < (page + 1) * num_per_page) {
       var preview = {}
@@ -13,6 +35,7 @@ function school_preview(page, num_per_page) {
       previews.push(preview)
     }
   })
+  */
   return previews
 }
 

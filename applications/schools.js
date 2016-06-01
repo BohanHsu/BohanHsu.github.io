@@ -829,9 +829,9 @@ school_json = [
       }
     ]
   }
-].reverse()
+]
 
-school_json = [
+school_json = school_json.concat([
   // umass Boston
   {
     "School_Name": "University of Massachusetts--Boston",
@@ -866,9 +866,9 @@ school_json = [
       },
     ]
   }
-].concat(school_json)
+])
 
-school_json = [
+school_json = school_json.concat([
   // clark university
   {
     "School_Name": "Clark University",
@@ -902,10 +902,10 @@ school_json = [
       },
     ]
   }
-].concat(school_json)
+])
 
 
-school_json = [
+school_json = school_json.concat([
   // wpi
   {
     "School_Name": "Worcester Polytechnic Institute",
@@ -999,9 +999,9 @@ school_json = [
 
     ]
   }
-].concat(school_json)
+])
 
-school_json = [
+school_json = school_json.concat([
   {
     "School_Name": "Suffolk University",
     "School_Rank": "58 (Regional University)",
@@ -1038,4 +1038,4 @@ school_json = [
       },
     ]
   }
-].concat(school_json)
+])
