@@ -4,6 +4,14 @@
     h1.page-header
       | School List
 
+    .row
+      
+      input.search-query.form-control(type='text' placeholder='search')
+      span.input-group-btn
+        button.btn.btn-danger(type='button')
+          span.glyphicon.glyphicon-search
+    hr
+
     ul
       li(ng-repeat="school in params['school_list']")
         h3
