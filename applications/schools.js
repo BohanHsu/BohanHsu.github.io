@@ -1000,3 +1000,42 @@ school_json = [
     ]
   }
 ].concat(school_json)
+
+school_json = [
+  {
+    "School_Name": "Suffolk University",
+    "School_Rank": "58 (Regional University)",
+    "School_Page_Link": "http://www.suffolk.edu/",
+    "Location": "Boston, MA",
+    "Admission_Rate": "83.9%",
+    "programs": [
+      {
+        "Major": "Master of Science in Finance (MSF)",
+        "Collage": "Sawyer Business School",
+        "Collage_Ranking": "",
+        "Major_Page_Link": "http://www.suffolk.edu/business/graduate/62683.php",
+        "Curriculum_Page_Link": "http://www.suffolk.edu/business/graduate/62684.php",
+        "Program_Length": "",
+        "Spring/Fall_Program": "Fall / Spring",
+        "Deadline": "Fall (March 15, then rolling) / Spring (October 15, then rolling)",
+        "GPA": "",
+        "GRE/GMAT": "GRE / GMAT",
+        "Toefl": "80, no less than 17 in each subject",
+        "Recommandation_Letter": "1 for ms in finance",
+        "Personal_Statement": "Goal Statement, detail in requirement page",
+        "Resume": "yes",
+        "Special_Requirement": [
+          "Interview is required"
+        ],
+        "Fee": "$50",
+        "Requirement_Page_Link": "http://www.suffolk.edu/admission/grad/17629.php#finance",
+        "Comment": [
+          "regional university 好像跟national university 不在一个系统里面排名，但也是正规的学校。。。",
+          "好像regional university/regional college录取率都挺高，但我估计是本科录取率，实际申请难度应该是一样的",
+          "这个学校在波士顿市中心，学校就分布在市中心的高楼大厦里面。。",
+          "我看有个读accounting的中国人在2010年左右写他们一个学期的学费是17k，比neu要贵一些。"
+        ]
+      },
+    ]
+  }
+].concat(school_json)
