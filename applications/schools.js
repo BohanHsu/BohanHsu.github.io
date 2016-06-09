@@ -155,6 +155,8 @@ school_json = [
       }
     ]
   },
+  /*
+   * No Business analyst
   {
     "School_Name": "Boston University",
     "School_Rank": "41",
@@ -210,6 +212,10 @@ school_json = [
       }
     ]
   },
+  */
+
+  /* 
+   * No BA
   {
     "School_Name": "University of California, Santa Barbara",
     "School_Rank": "37",
@@ -242,6 +248,10 @@ school_json = [
       }
     ]
   },
+  */
+  
+  /*
+   * 
   {
     "School_Name": "Pennsylvania State University",
     "School_Rank": "47",
@@ -343,6 +353,8 @@ school_json = [
       }
     ]
   },
+  */
+  /*
   {
     "School_Name": "University of California, Irvine",
     "School_Rank": "39",
@@ -375,6 +387,7 @@ school_json = [
       }
     ]
   },
+  */
   {
     "School_Name": "George Washington University",
     "School_Rank": "57",
@@ -382,6 +395,29 @@ school_json = [
     "Location": "Washington, DC",
     "Admission_Rate": "43.80%",
     "programs": [
+      {
+        "Major": "Business Analytics",
+        "Collage": "",
+        "Collage_Ranking": "",
+        "Major_Page_Link": "https://www.gwu.edu/business-analytics",
+        "Program_Length": "",
+        "Spring/Fall_Program": "",
+        "Deadline": "",
+        "GPA": "",
+        "GRE/GMAT": "",
+        "Toefl": "",
+        "Recommandation_Letter": "",
+        "Personal_Statement": "",
+        "Resume": "",
+        "Special_Requirement": [
+          ""
+        ],
+        "Fee": "",
+        "Requirement_Page_Link": "",
+        "Comment": [
+          ""
+        ]
+      },
       {
         "Major": "Master of Science in Finance (M.S.F.)",
         "Collage": "School of Business",
@@ -531,6 +567,8 @@ school_json = [
       }
     ]
   },
+
+  /*
   {
     "School_Name": "Syracuse University",
     "School_Rank": "61",
@@ -609,6 +647,7 @@ school_json = [
       }
     ]
   },
+  */
   {
     "School_Name": "University of Maryland",
     "School_Rank": "57",
@@ -672,6 +711,29 @@ school_json = [
     "Admission_Rate": "60.50%",
     "programs": [
       {
+        "Major": "Master of Information Technology (MIT)",
+        "Collage": "",
+        "Collage_Ranking": "",
+        "Major_Page_Link": "https://grad.admissions.rutgers.edu/GraduateProgram/Detail.aspx?code=22544&degree=MIT",
+        "Program_Length": "",
+        "Spring/Fall_Program": "",
+        "Deadline": "",
+        "GPA": "",
+        "GRE/GMAT": "",
+        "Toefl": "",
+        "Recommandation_Letter": "",
+        "Personal_Statement": "",
+        "Resume": "",
+        "Special_Requirement": [
+          ""
+        ],
+        "Fee": "",
+        "Requirement_Page_Link": "",
+        "Comment": [
+          ""
+        ]
+      },
+      {
         "Major": "Statistics & Biostatistics - Data Science (MS and Nondegree)",
         "Collage": "Graduate School (new brunswick)",
         "Collage_Ranking": "",
@@ -695,7 +757,7 @@ school_json = [
         ]
       },
       {
-        "Major": "",
+        "Major": "Financial Statistics & Risk Management",
         "Collage": "",
         "Collage_Ranking": "",
         "Major_Page_Link": "http://www.fsrm.rutgers.edu/",
@@ -831,6 +893,7 @@ school_json = [
   }
 ]
 
+/*
 school_json = school_json.concat([
   // umass Boston
   {
@@ -867,7 +930,9 @@ school_json = school_json.concat([
     ]
   }
 ])
+*/
 
+/*
 school_json = school_json.concat([
   // clark university
   {
@@ -903,7 +968,7 @@ school_json = school_json.concat([
     ]
   }
 ])
-
+*/
 
 school_json = school_json.concat([
   // wpi
@@ -1001,6 +1066,7 @@ school_json = school_json.concat([
   }
 ])
 
+/*
 school_json = school_json.concat([
   {
     "School_Name": "Suffolk University",
@@ -1039,3 +1105,4 @@ school_json = school_json.concat([
     ]
   }
 ])
+*/
